@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {{>header}}
+</head>
+
+<body id="grad1">
+    {{>navbar}}
+    {{>menu}}
+
+    
+    <section>
+    <br>
+        <section class="container assignment-box">
+            <div class="main">
+                <div class="row">
+                    <div class="col-5">
+                        <h2> New Assignments</h2>
+                        <hr class="hr-2">
+                        <div class="text-center margin-onehalf-all margin-ten-top"><a type="button" href="/new" class="btn btn-login">Add Assignment</a></div>
+                    </div>
+                    <div class="col-1">
+                        <div class="vl align-center"></div>
+                    </div>
+                    <div class="col-6 text-left">
+                    <h2> Upcoming Assignments</h2>
+                        <hr class="hr-2">
+                        {{#entries}}
+                            <section class="align-center">
+                                <div class="card" style="width: 100%;">
+                                    <ul class="list-group list-group-flush">
+                                        <a href="https://www.gcu.ac.uk/"><li class="list-group-item"><img src="ass.png" class="upAss-icon rounded float-left" alt="..."><h5>{{title}}</h5></li></a>
+                                    </ul>
+                                </div>
+                            </section>
+                        <!--<div><ol><li>{{Module}}<li></ol></div>-->
+                        {{/entries}}
+                    </div>
+                </div>
+            </div>
+            <br>
+        </section>
+        <br>
+    </section>
+
+</body>
+
+</html>

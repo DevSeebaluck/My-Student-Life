@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {{>header}}
+</head>
+
+<body>
+    {{>navbar}} {{>menu}}
+
+    <section id="grad1">
+        <br>
+        <section class="container transparent-box">
+            <div class="main">
+                <h2>{{page_title}}</h2>
+                <hr class="hr-3">
+            </div>
+            <div class="text-center padding-ten-top padding-fifteen-bottom">
+                <form>
+                    <label class="text-white" for="fname">Shareable Link:</label><br>
+                    <input type="text" value="shareAssignment/shareLink/:_id" id="sLink" name="shareLink" class="width-50 margin-two-bottom"><br>
+                    <br>
+                    <button class="btn btn-login" onclick="myFunction()">Copy text</button>
+                </form>
+            </div>
+        </section>
+        <br>
+    </section>
+
+
+</body>
+
+<script src="style.js"></script>
+
+</html>

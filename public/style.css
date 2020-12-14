@@ -1,0 +1,455 @@
+.bg-black {
+    background-color: #00253c;
+}
+
+.bg-blue {
+    background-color: rgb(61, 177, 255);
+    color: white;
+}
+
+#grad1 {
+    /*height: 200px; */
+    background-color: red;
+    /* For browsers that do not support gradients */
+    background-image: linear-gradient(to right top, rgb(247, 12, 235), rgb(46, 97, 240));
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-white {
+    color: white;
+}
+
+.text-large {
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, sans-serif;
+    font-weight: 20%;
+}
+
+.padding-top {
+    padding-top: 25%;
+}
+
+.padding-100px-all {
+    padding: 100px;
+}
+
+.brand-padding {
+    padding-top: 100px;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-bottom: 50px;
+}
+
+.login-box {
+    background-color: #88888881;
+    padding: 0%;
+    border-radius: 30px;
+    width: 75%;
+    margin: auto;
+}
+
+.user-icon {
+    padding: 2%;
+    width: 20%;
+    height: auto;
+}
+
+.module-icon {
+    padding: 1%;
+    width: 5%;
+    height: auto;
+}
+
+.upAss-icon {
+    padding: 0%;
+    padding-right: 1%;
+    width: 10%;
+    height: auto;
+}
+
+.no-margin {
+    margin: 0 !important
+}
+
+.margin-half-all {
+    margin: 15%;
+}
+
+.margin-onehalf-all {
+    margin: 0.2%;
+}
+
+.margin-two-top {
+    margin-top: 3%;
+}
+
+.margin-three-top {
+    margin-top: 3%;
+}
+
+.margin-nine-top {
+    margin-top: 9%;
+}
+
+.margin-ten-top {
+    margin-top: 10.2%;
+}
+
+.margin-four-left {
+    margin-left: 4%;
+}
+
+.margin-five-right {
+    margin-right: 5%;
+}
+
+.margin-one-left {
+    margin-left: 1%;
+}
+
+.margin-two-bottom {
+    margin-bottom: 1%;
+}
+
+.margin-three-bottom {
+    margin-bottom: 3%;
+}
+
+.margin-four-bottom {
+    margin-bottom: 4%;
+}
+
+.no-padding {
+    padding: 0 !important
+}
+
+.padding-three-bottom {
+    padding-bottom: 3%;
+}
+
+.padding-bottom {
+    padding-bottom: 13.6%;
+}
+
+.padding-eleven-bottom {
+    padding-bottom: 11%;
+}
+
+.padding-twelve-bottom {
+    padding-bottom: 12%;
+}
+
+.padding-thirteen-bottom {
+    padding-bottom: 13.35%;
+}
+
+.padding-fifteen-bottom {
+    padding-bottom: 15.1%;
+}
+
+.padding-one-top {
+    padding-top: 1%;
+}
+
+.padding-three-top {
+    padding-top: 3%;
+}
+
+.padding-five-top {
+    padding-top: 5%;
+}
+
+.padding-ten-top {
+    padding-top: 10%;
+}
+
+.padding-20px-top {
+    padding-top: 20px;
+}
+
+.padding-10px-top {
+    padding-top: 20px;
+}
+
+.padding-three {
+    padding: 3%;
+}
+
+.width-50 {
+    width: 50%;
+}
+
+.form-margin {
+    width: 75%;
+    height: auto;
+    margin: auto;
+}
+
+.bg-dangerous {
+    background: rgb(205, 0, 255);
+    background: linear-gradient(45deg, rgba(205, 0, 255, 1) 0%, rgba(3, 162, 218, 1) 62%);
+}
+
+.btn-login {
+    color: #fff;
+    background-color: #002349;
+    border-color: #002349;
+}
+
+.btn-login:hover {
+    color: #fff;
+    background-color: #0069d9;
+    border-color: #0062cc;
+}
+
+.fader {
+    margin-right: 1.5%;
+    width: 50%;
+    border-radius: 20% 30px 30px 20%;
+    background: rgba(89, 29, 255, 0.144) 62%;
+}
+
+.triangle {
+    width: auto;
+    height: auto;
+    background: linear-gradient(240deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 50%, #a48d01 50%, #a48d01 100%, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 50%);
+}
+
+.align-center {
+    margin: auto;
+    width: 80%;
+    border: 0;
+    padding: 10px;
+}
+
+.vertical-center {
+    padding: 70px 0;
+    border: 0;
+}
+
+
+/*-----------Sidebar Nav------------*/
+
+.sidenav {
+    height: 100%;
+    width: 225px;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    background-color: rgba(43, 0, 40, 0.918);
+    overflow-x: hidden;
+    padding-top: 6%;
+}
+
+.sidenav a {
+    padding: 10px 6px 6px 32px;
+    text-decoration: none;
+    font-size: 21px;
+    color: #dbdbdb;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #000000;
+    background-color: rgb(230, 230, 230);
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+.main {
+    margin-left: 3%;
+    margin-right: 3%;
+    padding-top: 1%;
+    /* Same as the width of the sidenav */
+}
+
+
+/*-----------Assignment page------------*/
+
+.assignment-box {
+    background-color: #eeeeeee0;
+    padding: 0%;
+    border-radius: 10px;
+    width: 80.5%;
+    margin-left: 18%;
+    margin-top: 4.5%;
+    margin-bottom: 2.3%;
+}
+
+.transparent-box {
+    background-color: #eeeeee00;
+    padding: 0%;
+    border-radius: 10px;
+    width: 80.5%;
+    margin-left: 18%;
+    margin-top: 4.5%;
+    margin-bottom: 2.3%;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.ass-icon {
+    background-color: #aaaaaabb;
+    width: 5%;
+    height: auto;
+    border-radius: 40%;
+}
+
+.mono-font {
+    font-family: monospace;
+}
+
+.logout-font {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: medium;
+    text-decoration: none;
+}
+
+.logout-font:hover {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: large;
+    text-decoration: none;
+    border-radius: 20%;
+}
+
+.hr-3 {
+    border: 1px solid black;
+}
+
+.hr-2 {
+    border: 1px solid rgb(112, 112, 112);
+}
+
+
+/*---- The Modal (background)---- */
+
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 120px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.801);
+    /* Black w/ opacity */
+}
+
+
+/* Modal Content */
+
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 0px solid;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+
+/* Add Animation */
+
+@-webkit-keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+@keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+
+/* The Close Button */
+
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    text-align: center;
+    padding: 2px 16px;
+    background-color: #3800d1;
+    color: white;
+}
+
+.modal-body {
+    padding: 2% 16px;
+}
+
+.modal-footer {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+}
+
+.cal {
+    width: 100%;
+    height: 425px;
+}
+
+.vl {
+    border-left: 3px solid rgb(0, 81, 128);
+    height: 459px;
+}

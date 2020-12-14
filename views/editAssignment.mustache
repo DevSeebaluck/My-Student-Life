@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {{>header}}
+    <link rel="stylesheet" content-type="text/css" href="/public/style.css">
+</head>
+
+<body>
+    {{>menu}} {{#entries}}
+
+    <section id="grad1">
+        <h1>{{page_title}}</h1>
+        <hr>
+        <br>
+        <section class="container assignment-box ">
+            <div class="main">
+                <h6>Please edit all fields for a successful update.</h6>
+                <br>
+                <form method="post" role="form" action="">
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="form-group  padding-three-top">
+                                <label for="title"><h5>Assignment Name</h5></label>
+                                <input type="text" placeholder="{{title}}" class="form-control" id="module" name="title" aria-describedby="">
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+
+                    <div class="row margin-three-top">
+                        <div class="col-6">
+                            <div class="form-group no-margin">
+                                <label for="module"><h5>Module</h5></label>
+                                <input type="text" placeholder="{{module}}" class="form-control" id="module" name="module" aria-describedby="">
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="form-group">
+                                <label for="milestonesList"><h5>Milestones</h5></label>
+                                <input type="text" placeholder="{{milestones}}" class="form-control" id="milestonesList" name="milestones" aria-describedby="">
+                            </div>
+                            <!--<div class="text-center">
+                                <button type="addStep" class="btn btn-primary">+ Add Step</button>
+                            </div>-->
+                        </div>
+                    </div>
+
+                    <div class="form-group margin-three-top">
+                        <label for="deadline"><h5>Deadline</h5></label>
+                        <div class="row">
+                            <div class="col-3">
+                                <label for="milestonesList"><b>Intended Due Date</b></label>
+                                <input type="text" placeholder="{{due_date}}" class="form-control" id="deadline" name="due_date">
+                            </div>
+                            <div class="col-3">
+                                <label for="milestonesList"><b>Completion Date</b></label>
+                                <input type="text" placeholder="{{completion_date}}" class="form-control" id="deadline" name="completion_date">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="text-right margin-ten-top">
+                        <input type="submit" onclick="alert('Your assignment was added modified')" value="Done" class="btn btn-primary">
+                        <a type="button" href="/assignments" onclick="return confirm('Finished editing?')" class="btn btn-primary">Cancel</a>
+                    </div>
+                    <br>
+                </form>
+            </div>
+        </section>
+        <br>
+    </section>
+    {{/entries}}
+
+</body>
+
+</html>
