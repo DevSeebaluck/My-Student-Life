@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {{>header}}
+</head>
+
+<body id="grad1">
+    {{>navbar}}
+    {{>menu}}
+
+    
+    <section>
+    <br>
+        <section class="container assignment-box">
+            <div class="main">
+                <h2> My Modules</h2>
+                <hr class="hr-2">
+                {{#entries}}
+                    <section class="align-center">
+                        <div class="card" style="width: 100%;">
+                            <ul class="list-group list-group-flush">
+                                <a href="https://www.gcu.ac.uk/"><li class="list-group-item"><img src="ass.png" class="module-icon rounded float-left" alt="..."><h5>{{module}}</h5></li></a>
+                            </ul>
+                        </div>
+                    </section>
+                <!--<div><ol><li>{{Module}}<li></ol></div>-->
+                {{/entries}}
+            </div>
+            <br>
+        </section>
+        <br>
+    </section>
+    
+    
+
+</body>
+
+</html>

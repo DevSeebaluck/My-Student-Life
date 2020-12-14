@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {{>header}}
+</head>
+
+<body>
+    {{>navbar}}
+    {{>menu}}
+
+    <section id="grad1">
+        <br>
+        <section class="container assignment-box ">
+            <div class="main">
+                <form method="post" role="form" action="">
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="form-group  padding-three-top">
+                                <input type="text" placeholder="Enter the name of your assignment?" class="form-control" id="module" name="title" aria-describedby="">
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+
+                    <div class="row margin-three-top">
+                        <div class="col-6">
+                            <div class="form-group no-margin">
+                                <label for="module"><h5>Module</h5></label>
+                                <input type="text" placeholder="Submitting for which module?" class="form-control" id="module" name="module" aria-describedby="">
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="form-group">
+                                <label for="milestonesList"><h5>Milestones</h5></label>
+                                <input type="text" placeholder="What's next?" class="form-control" id="milestonesList" name="milestones" aria-describedby="">
+                            </div>
+                            <div class="text-center">
+                                <button type="addStep" class="btn btn-primary">+ Add Step</button>
+                            </div>
+                        </div>
+                    </div>
+ 
+                    <div class="form-group margin-three-top">
+                        <label for="deadline"><h5>Deadline</h5></label>
+                        <div class="row">
+                            <div class="col-3">
+                                <input type="date" placeholder="Any Intended Due Date?" class="form-control" id="deadline" name="due_date">
+                            </div>
+                            <div class="col-3">
+                                <input type="date" placeholder="Actual Completion Date" class="form-control" id="deadline" name="completion_date">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class= "text-right margin-ten-top">
+                        <input type="submit" onclick="alert('Your assignment was added sucessfully')" value="Done" class="btn btn-primary">
+                        <a type="button" href="/assignments" onclick="return confirm('Are you sure, you want to leave the page?')" class="btn btn-primary">Cancel</a>
+                    </div>
+                    <br>
+                </form>
+            </div>
+        </section>
+        <br>
+    </section>
+    
+
+</body>
+
+</html>

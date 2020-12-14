@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {{>header}}
+</head>
+
+<body>
+
+    <section class="bg-dangerous padding-thirteen-bottom">
+        <h1 class="text-center text-white brand-padding">My Student Life</h1>
+        
+        <div class="login-box container text-center text-white">
+            <div class="row">
+
+                <div class="col padding-three">
+                    <h2>Welcome Back</h2>
+                    <img src="./user.png" alt="..." class="user-icon">
+                    <p>Don't have an account?</p>
+                    <a class="btn btn-outline-light" href="/signUp" role="button">Sign Up!</a>
+                </div>
+                
+                <div class="col padding-three fader">
+                    <form class="form-margin" action="/dashboard">
+                        <div class="form-group padding-20px-top">
+                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email-Address" aria-describedby="emailHelp">
+                        </div>
+                        <div class="form-group padding-20px-top">
+                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                        </div>
+                        <div class="padding-10px-top">
+                        <button type="login" class="btn btn-login ">Log In</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+</body>
+
+</html>
